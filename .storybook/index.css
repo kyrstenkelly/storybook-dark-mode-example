@@ -1,0 +1,63 @@
+/** We use "important" in some places to ensure our styles are used */
+
+p {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem !important;
+  font-weight: 300 !important;
+  line-height: 4rem !important;
+  max-width: 50rem !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+  font-weight: 300 !important;
+  line-height: 3rem !important;
+  max-width: 50rem !important;
+}
+
+table {
+  table-layout: fixed;
+  border-spacing: 1rem;
+}
+
+table thead tr th {
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tbody tr {
+  border-top: 1px solid rgba(0,0,0,.1);
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+table tbody tr:nth-of-type(2n) {
+  background-color: #F8F8F8;
+}
+
+table tbody tr td {
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 0;
+  padding: 6px 13px;
+}
+
+code .plain-text {
+  color: white;
+}
+
+.dark-background {
+  background-color: #2E3D49;
+  padding: 2rem;
+}
+
+.sbdocs-preview.overflow,
+.sbdocs-preview.overflow * {
+  overflow: visible;
+}
